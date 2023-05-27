@@ -1,5 +1,5 @@
 const express = require('express');
-const router = express.router();
+const router = express.Router();
 
 router.get('/', function(req, res) {
   res.send(`Endpoint: ${req.originalUrl}\nMethod: ${req.method}

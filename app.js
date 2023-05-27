@@ -6,11 +6,10 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-
-const app = express();
-
 const clientesRouter = require('./routes/clientes');
 const produtosRouter = require('./routes/produtos');
+
+const app = express();
 
 app.use('/', indexRouter);
 app.use('/clientes', clientesRouter);

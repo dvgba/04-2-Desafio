@@ -1,5 +1,5 @@
 const express = require('express');
-const router = express.router();
+const router = express.Router();
 
 /* GET listagem de usuários. */
 router.get('/', function(req, res, next) {
