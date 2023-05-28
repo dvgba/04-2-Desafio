@@ -12,6 +12,6 @@ module.exports = {
   },
   'rules': {
     'linebreak-style': 'off',
-    'new-cap': 0
+    'new-cap': 0,
   },
 };
